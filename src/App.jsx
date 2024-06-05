@@ -121,7 +121,7 @@ function App() {
   }
   return (
     <>
-     <div className="row p-5" id="test">
+     <div className="row px-1 px-lg-5 py-1 py-lg-5" id="test">
       <div className="col-md-1"></div>
       <div className="col-md-10 p-3 align-items-center d-flex justify-content-center">
       <div className="card text-center border-4">
