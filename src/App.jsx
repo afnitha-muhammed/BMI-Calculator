@@ -108,10 +108,10 @@ function App() {
       <div className="cart-text" style={{ color: 'bisque' }}>BMI Index calculator</div>
       <form>
       <div className='d-flex align-items-center justify-content-center mt-5'>
-      <button type="button" onClick={(e)=>bmigender("male)} value={"male"}  name="male" className="btn btn-danger">
+      <button type="button" onClick={(e)=>bmigender("male")} value={"male"}  name="male" className="btn btn-danger">
       <i className="fa-solid fa-person fa-2xl mb-2"></i><br /> <h5 className='mt-2' name="male" aria-disabled>Male</h5>
         </button>
-      <button type="button" onClick={(e)=>bmigender("female)} value={"female"} name="female" className="btn btn-danger ms-3">
+      <button type="button" onClick={(e)=>bmigender("female")} value={"female"} name="female" className="btn btn-danger ms-3">
      <i className="fa-solid fa-person-dress fa-2xl mb-2"></i> <br /><h5 className='mt-2' name="female">Female</h5></button> 
       </div>
       <div className='d-flex justify-content-center align-items-center mt-4 bg mx-5 rounded' style={{height:'170px;', width:'100px;'}}>
