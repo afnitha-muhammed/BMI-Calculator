@@ -18,7 +18,7 @@ body{
 h5{
   background-color: transparent;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 344px) and (max-device-width: 768px) {
   .card{
     width:100%;
   }
