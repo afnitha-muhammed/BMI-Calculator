@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: black;
+}
+.card{
+  background-color: rgba(0, 0, 0, 0.264);
+  width: 50%;
+  /* height: 100vh; */
+  border-color: #dc3545;
+}
+.btn{
+  width:150px ;
+  height: 120px;
+}
+h5{
+  background-color: transparent;
+}
+@media screen and (max-width: 600px) {
+  .card{
+    width:100%;
+  }
+  .bmi{
+    width:100%;
+  }
+}
+.bg{
+  background-color: #dc3545;
+}
+input[type="text" i] {
+  border-bottom: 3px solid white;
+  color: white;
+}
+.bmi{
+  background-color: #dc3545;
+}
+.list-group-item{
+  background-color: #dc3545;
+}
