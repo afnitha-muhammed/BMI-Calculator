@@ -55,30 +55,30 @@ function App() {
     if(bmivalue >=25.0)
       {
         setbmicondition("Over-Weight")
-        setimg("./fat-boy.jpg")
+        setimg("../fat-boy.jpg")
       }
     else if(bmivalue >= 18.0){
       setbmicondition("Normal")
-      setimg("./boy.jpg")
+      setimg("../boy.jpg")
     }
     else{
       setbmicondition("Undernourished")
-      setimg("./under-boy.webp")
+      setimg("../under-boy.webp")
     }
   }
   else  if((gender == "female")){
     if(bmivalue >=25.0)
       {
         setbmicondition("Over-Weight")
-        setimg("./fat-girl.avif")
+        setimg("../fat-girl.avif")
       }
     else if(bmivalue >= 18.0){
       setbmicondition("Normal")
-      setimg("./girl.jpg")
+      setimg("../girl.jpg")
     }
     else{
       setbmicondition("Undernourished")
-      setimg("./under-girl.webp")
+      setimg("../under-girl.webp")
     }
   }else{
     console.log("invalid");
