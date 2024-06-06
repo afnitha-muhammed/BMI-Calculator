@@ -55,7 +55,7 @@ function App() {
     if(bmivalue >=25.0)
       {
         setbmicondition("Over-Weight")
-        setimg("../fat-boy.jpg")
+        setimg("fat-boy.jpg")
       }
     else if(bmivalue >= 18.0){
       setbmicondition("Normal")
