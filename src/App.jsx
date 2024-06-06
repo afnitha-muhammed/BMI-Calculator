@@ -55,7 +55,7 @@ function App() {
     if(bmivalue >=25.0)
       {
         setbmicondition("Over-Weight")
-        setimg("fat-boy.jpg")
+        setimg("https://github.dev/afnitha-muhammed/BMI-Calculator/blob/master/fat-boy.jpg")
       }
     else if(bmivalue >= 18.0){
       setbmicondition("Normal")
